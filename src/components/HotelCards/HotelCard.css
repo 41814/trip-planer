@@ -1,0 +1,36 @@
+.hotel-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust spacing between cards */
+    margin: -10px; /* Adjust for any padding/margins */
+}
+
+.hotel-card {
+    background-color:rgba(200, 163, 163, 0.8) ;
+    flex: 0 0 calc(50% - 20px); 
+    margin: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.hotel-image img {
+    width: 100%;
+    height: auto;
+}
+
+.book-now-button {
+    margin-left: 200px;
+    background-color: #007BFF;
+    color: white; 
+    border: none; 
+    border-radius: 4px;
+    padding: 10px 15px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.book-now-button:hover {
+    background-color: #0056b3;
+}

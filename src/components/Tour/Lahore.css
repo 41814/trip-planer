@@ -1,0 +1,50 @@
+.image-content-container {
+  display: flex;
+  border: 1px solid #a04747;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ead4d4;
+}
+
+.image-side {
+  flex: 1; /* This will take one side of the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.image {
+  max-width: 100%; /* Responsive image */
+  height: auto;
+  
+}
+.header4 {
+  position: relative; /* Allow absolute positioning of children */
+  height: 750px; /* Set a height for the header */
+  overflow: hidden; /* Hide anything that overflows */
+}
+
+.header-background4 {
+  position: absolute; /* Position it behind the content */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Send it to the back */
+}
+
+.header-background4 img {
+  width: 100%; /* Make the image fill the width */
+  height: 100%; /* Make the image fill the height */
+  object-fit: cover; /* Cover the entire area */
+}
+
+.content-side {
+  flex: 1; /* This will take the other side of the container */
+  padding: 20px; /* Space around the content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  background-color:rgb(167, 75, 75);
+}

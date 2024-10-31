@@ -1,0 +1,42 @@
+
+.logo {
+  display: flex;
+ 
+}
+
+.logo img {
+  height: 30px; 
+  margin-right: 700px; 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgba(81, 77, 77, 0.8); /* Adjusted to be semi-transparent */
+}
+
+
+.booking-body {
+  background-image: url('https://i.redd.it/o8dlfk93azs31.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto, arial, sans-serif;
+  font-family: 'Dancing Script', cursive !important;
+  
+}
+
+.container1 {
+  max-width: 600px;
+  background-color: rgba(94, 88, 88, 0.8); /* Adjusted to be semi-transparent */
+  padding: 100px;
+ margin-left: 450px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 40px; 
+  color: aliceblue;
+}
+ 
